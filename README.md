@@ -23,7 +23,9 @@
 ![image](https://github.com/user-attachments/assets/07ed7e0f-2d00-40f6-8a88-b6c016fbb028)
 
 # Вся нужная инфа о компании редактируется из вкладки информация о компании
-![image](https://github.com/user-attachments/assets/768357db-8527-4eae-af45-58629a5af539)
+
+![image](https://github.com/user-attachments/assets/44baf755-3fcc-4571-ab0f-ed1b7411e453)
+
 
 
 ## Установленные плагины

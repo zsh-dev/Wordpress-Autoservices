@@ -1,0 +1,364 @@
+@media(max-width:1399px){
+
+   main:not(.blog-page) .blog-box img {
+
+        max-width: 210px;
+
+    }
+
+}
+
+@media(max-width:1199px){
+
+   .home .header {
+
+        padding-inline: 10px;
+
+    }
+
+    .promo-main {
+
+        margin-inline: 10px;
+
+    }
+
+    .box-gray {
+
+        padding: 60px;
+
+    }
+
+    .container-full {
+
+        padding-inline: 15px;
+
+    }
+
+   
+
+    main:not(.blog-page) .blog-box img {
+
+        max-width: 190px;
+
+    }
+
+    .blog-box__date {
+
+        padding: 12px 10px;
+
+    }
+
+    .two-inputs p{
+
+        flex-direction: column;
+
+        gap: 0;
+
+    }
+
+    .footer {
+
+        margin-inline: 0;
+
+    }
+
+    .footer__items {
+
+        justify-content: stretch;
+
+        grid-template-columns: 1fr 1fr;display: grid;
+
+        gap: 45px;
+
+    }
+
+}
+
+
+
+@media(max-width:991px){
+
+    .burger {
+
+        display: flex;
+
+    }
+
+    .close-menu-btn {
+
+        display: block;
+
+    }
+
+    .header-menu-inner {
+
+        display: grid;
+
+        align-items: center;
+
+        justify-content: center;
+
+        position: fixed;
+
+        top: 0;
+
+        left: -100%;
+
+        background-color: var(--accent-color);
+
+        min-width: 100%;
+
+        transition: .5s;
+
+        z-index: 10;
+
+        height: 100vh;
+
+        overflow-y: auto;
+
+        padding: 20px 0;
+
+        transition: .5s;
+
+    }
+
+    .header-menu-inner.active {
+
+        left: 0;
+
+    }
+
+    .menu {
+
+        flex-direction: column;
+
+        color: var(--white-color);
+
+        background-color: transparent;
+
+        padding: 0;
+
+        align-items: center;
+
+        justify-content: center;
+
+    }
+
+   
+
+    .menu a {
+
+        padding: 0;
+
+        font-size: 35px;
+
+        padding: 30px 0;
+
+    }
+    .menu a:hover {
+
+        color: var(--main-color);
+    
+    }
+
+    .menu a::after {
+
+        display: none;
+
+    }
+
+    .header__btns {
+
+        display: flex;
+
+        align-items: center;
+
+        gap: 15px;
+
+    }
+
+    .three-cols {
+
+        grid-template-columns:1fr 1fr;
+
+    }
+
+    .two-cols:not(.two-cols_md) {
+
+        grid-template-columns: 1fr;
+
+        }
+
+        
+
+        .why-content {
+
+            padding-left: 15px;
+
+            max-width: none;
+
+        }
+
+
+
+        .banner-box {
+
+            padding: 80px 40px;
+
+        }
+
+        .blog-box__image-w50 {
+
+            width: 50%;
+
+            flex-shrink: 0;
+
+        }
+
+        
+
+        main:not(.blog-page) .blog-box img {
+
+            max-width: 100%;
+
+        }
+
+        .single-post .site-sidebar {
+            order: 1;
+        }
+
+
+        .footer__container, .footer__items {
+
+            grid-template-columns: 1fr;
+
+            justify-content: center;
+
+        }
+
+}
+
+@media(max-width:767px){
+
+    .header {
+
+        padding-top: 38px;
+
+    }
+
+    .home .header {
+
+        padding-inline: 0;
+
+    }
+
+    .promo-main {
+
+        margin-inline: 0;
+
+        border-radius: 0px;
+
+    }
+
+    .banner-box {
+
+        padding: 60px 20px;
+
+    }
+
+    .faq-item__question button {
+        padding: 15px;
+    }
+
+}
+
+
+
+@media(max-width:575px){
+
+    .header .btn {
+
+        display: none;
+
+    }
+
+    .two-cols_md {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .service-card__bottom {
+
+        padding: 20px;
+
+        flex-direction: column;align-items: start;
+
+    }
+
+    .why-cols {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .box-gray {
+
+        padding: 30px;
+
+    }
+
+    .blog-box {
+
+        flex-wrap: wrap;padding: 20px;
+
+    }
+
+    .blog-box__image-w50 {
+
+        width: 100%;
+
+    } 
+
+    .gray-box {
+
+        padding: 30px 20px;
+
+        padding-bottom: 5px;
+
+    }
+
+    .modal-form .gray-box {
+
+        padding-top: 60px;
+
+    }
+
+    .footer-menu {
+
+       grid-template-columns: 1fr;
+
+       gap: 20px;
+
+    }
+
+    .three-cols {
+
+        grid-template-columns:1fr;
+
+    }
+
+    .recent-post {
+
+        flex-direction: column;align-items: stretch;
+
+    }
+
+    .recent-post__img {
+
+        width: 180px;
+
+    }
+
+}
+

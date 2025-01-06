@@ -17,6 +17,14 @@
 - **Интеграция с Telegram:** Формы обратной связи отправляют данные напрямую в Telegram.
 ![image](https://github.com/user-attachments/assets/9168171e-97e6-4f39-a36c-77d1853c6b59)
 
+**Поля главной страницы**
+
+![image](https://github.com/user-attachments/assets/07ed7e0f-2d00-40f6-8a88-b6c016fbb028)
+
+**Вся нужная инфа о компании редактируется из вкладки информация о компании**
+![image](https://github.com/user-attachments/assets/768357db-8527-4eae-af45-58629a5af539)
+
+
 ## Установленные плагины
 
 1. **Advanced Custom Fields PRO**  
